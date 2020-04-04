@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-image: url('../_fotos/sp.jpg');
+background-size: cover;
+}
+
+nav#menu {
+height: 60px;
+width: 100%;    
+background-color: white;
+}
+
+nav#menu p{
+font-family: Arial;
+color: #222;
+font-size: 24px;
+float: left;
+padding: 12px 20px;
+}
+
+
+nav#menu ul{
+    float: left;
+}
+
+nav#menu ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav#menu ul li a{
+    display: block;    
+    font-family: Arial;
+    color: #222;
+    font-size: 16px;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+nav#menu ul li ul{
+    display: none; 
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav#menu ul li ul li{
+    width: 180px;
+    border-radius: 40px;
+}
+
+nav#menu ul li:hover ul{
+    display: block; 
+}
+
+nav#menu ul li ul li a:hover{
+    background-color:#f3f3f3;
+    color: blue;
+    border-radius: 4px;
+}
